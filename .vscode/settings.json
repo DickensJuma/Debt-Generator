@@ -1,0 +1,23 @@
+{
+  // EDITOR CONFIGURATION
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "files.associations": {
+    "html": "html",
+    "*.css": "tailwindcss"
+  },
+
+  // ESLINT CONFIGURATION
+  "eslint.validate": ["javascript", "javascriptreact"],
+
+  // LANGUAGE CONFIGURATION
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  }
+}
